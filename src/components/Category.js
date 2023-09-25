@@ -14,7 +14,7 @@ class Category {
       }
       const data = await response.json();
       return data.categories;
-    } catch (error) {
+    } catch (error) {d
       throw new Error(`Error fetching categories: ${error.message}`);
     }
   }

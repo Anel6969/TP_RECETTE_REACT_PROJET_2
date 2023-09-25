@@ -4,6 +4,7 @@ import { useQuery } from 'react-query';
 import Recipe from '../Recipe';
 import Fetch from '../Fetch/Fetch';
 
+
 const oRS = new Recipe();
 
 function Recette() {
